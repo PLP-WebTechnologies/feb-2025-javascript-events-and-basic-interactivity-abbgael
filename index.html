@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Event Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to the JS Playground 🎉</h1>
+  </header>
+
+  <!-- Event Handling -->
+  <section id="events">
+    <h2>Event Handling 🎈</h2>
+    <button id="clickBtn">Click Me!</button>
+    <p id="hoverText">Hover over me!</p>
+    <input type="text" id="keypressInput" placeholder="Type something...">
+    <button id="secretBtn">Double Click Me 🤫</button>
+  </section>
+
+  <!-- Interactive Elements -->
+  <section id="interactive">
+    <h2>Interactive Elements 🎮</h2>
+    <button id="colorChanger">Change My Color</button>
+
+    <div id="gallery">
+      <img id="galleryImage" src="https://via.placeholder.com/300" alt="Gallery Image">
+      <button id="nextImage">Next Image</button>
+    </div>
+
+    <div id="tabs">
+      <button class="tab" data-content="content1">Tab 1</button>
+      <button class="tab" data-content="content2">Tab 2</button>
+      <div id="content1" class="tab-content active">This is Tab 1 content</div>
+      <div id="content2" class="tab-content">This is Tab 2 content</div>
+    </div>
+  </section>
+
+  <!-- Form Validation -->
+  <section id="form-section">
+    <h2>Form Validation 📋</h2>
+    <form id="myForm">
+      <label>Email:
+        <input type="email" id="email" required>
+        <span class="error" id="emailError"></span>
+      </label><br>
+      <label>Password:
+        <input type="password" id="password" required>
+        <span class="error" id="passwordError"></span>
+      </label><br>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
